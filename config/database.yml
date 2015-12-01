@@ -29,10 +29,13 @@ development:
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user that initialized the database.
-  #username: ruby-getting-started
+  # username: ruby-getting-started
+  username: "postgres"
+
 
   # The password associated with the postgres role (username).
   #password:
+  password: "sdh891Z0"
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -72,6 +75,8 @@ test:
 # available as an environment variable. For example:
 #
 #   DATABASE_URL="postgres://myuser:mypass@localhost/somedatabase"
+#   DATABASE_URL="postgres://postgres:sdh891Z0@localhost/somedatabase"
+
 #
 # You can use this database configuration with:
 #
